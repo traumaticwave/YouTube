@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/fragment_youtube_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scaleType="fitStart"
+        android:layout_margin="4dp"
+        android:contentDescription=""
+        tools:ignore="ContentDescription">
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragment_youtube_title"/>
+    <!--
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="139dp"
+        android:layout_toEndOf="@+id/fragment_youtube_image_view"
+        android:layout_toRightOf="@+id/fragment_youtube_image_view"/>
+        -->
+</FrameLayout>
